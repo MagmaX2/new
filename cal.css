@@ -99,6 +99,12 @@ a:active{
         background-color: #887a7a;
     }
 
+.info{
+    background-color:#887a7a;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
    
 
 

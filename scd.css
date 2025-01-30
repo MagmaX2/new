@@ -55,23 +55,38 @@ nav ul li{
 }
 
 #third{
-    height: 15%;
+    background-color: #dacbcb;
+    height: 20%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 1rem 1rem 1rem;
     font-weight: bold;
-    border: 1px solid black;
-    
+    border: 1px solid black;  
 }
+#third button{
+    margin-top: 0.5rem;
+    background-color:#afa4a4;
+}
+
+#third button:hover{
+    background-color: #d2331ebe;
+}
+
 
 #third form{
     display:flex;
     flex-direction: column;
-    text-align: center;
+    
 }
+
+#third form select{
+    background-color:#887a7a;
+}
+
+
 label{
-    padding-top: 0.5rem;
+    padding-top: 0.5rem;   
 }
 
 #third section{
@@ -84,10 +99,13 @@ label{
     text-align: center;
     display: grid;
     place-items: center;
+    background-color:#887a7a;
 }
 
+
 #fourth{
-    height: 75%;
+    height: 70%;
+    background-color:#887a7a;
 }
 table{
     font-size: large;
@@ -97,7 +115,9 @@ table{
 
 th,td{
     border: 1px solid;
-    background-color: white;
+    background-color:#ece4e4;
+    text-align: center;
+
 }
 
 #left{
@@ -110,10 +130,12 @@ th,td{
     border: 1px solid black;
 }
 
-.m-space{
-    background-color: grey;
-    width: 70%;
-    height: 80%;
+#m-space{
+    background-color: #887a7a;
+    width: 68%;
+    height: 68%;
+    border-radius: 0.5rem;
+
 }
 
 #avater{
@@ -123,12 +145,13 @@ th,td{
    justify-content: center;
    flex-direction: column;
    font-size: x-large;
-   background: linear-gradient(to right, rgb(179, 116, 116), #d2331ebe);
+   background-color: #dacbcb;
 
 }
 
 #fom{
-  height: 75%;  
+  height: 75%; 
+  background-color: #887a7a; 
 }
 
 a:link{
@@ -154,3 +177,8 @@ a:active{
         background-color: #887a7a;
     }
 
+ .highlight{
+    background-color:grey;
+ } 
+
+ 
