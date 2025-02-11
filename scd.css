@@ -55,18 +55,17 @@ nav ul li{
 }
 
 #third{
-    background-color: #dacbcb;
-    height: 20%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 1rem 1rem 1rem;
-    font-weight: bold;
-    border: 1px solid black;  
+    background-color: #dacbcb;
+    padding: 0.5rem;
+    height: 20%;
+  
 }
 #third button{
-    margin-top: 0.5rem;
-    background-color:#afa4a4;
+    background-color:#fa260ad3;
+
 }
 
 #third button:hover{
@@ -75,9 +74,7 @@ nav ul li{
 
 
 #third form{
-    display:flex;
-    flex-direction: column;
-    
+    display: grid;
 }
 
 #third form select{
@@ -86,12 +83,13 @@ nav ul li{
 
 
 label{
-    padding-top: 0.5rem;   
+    padding: 0.5px 0 0.5px 0;   
 }
 
 #third section{
-    display: grid;
-    place-items: center;
+    height: 100%;
+    width: 100%;
+    margin: 0.5rem;
 }
 
 #right h1{
@@ -99,7 +97,6 @@ label{
     text-align: center;
     display: grid;
     place-items: center;
-    background-color:#887a7a;
 }
 
 
@@ -132,10 +129,17 @@ th,td{
 
 #m-space{
     background-color: #887a7a;
-    width: 68%;
-    height: 68%;
-    border-radius: 0.5rem;
+    
+    
 
+}
+
+.datetime{
+    background-color: #887a7a;
+}
+
+.head{
+    background-color:#887a7a;
 }
 
 #avater{
